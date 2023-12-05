@@ -1,5 +1,5 @@
 // Button.stories.ts|tsx
-import ClipPath from "../../components/clippath";
+import ClipPath from "../../components/clippath.jsx";
 
 const meta = {
   component: ClipPath,
@@ -8,7 +8,7 @@ const meta = {
 export default meta;
 
 
-export const Primary = {
+export const Example1 = {
   args: {
     text: 'Que xopa',
     size:90

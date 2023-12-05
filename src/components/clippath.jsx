@@ -6,7 +6,7 @@ const ClipPath = () => {
     const elements = gsap.utils.toArray('.ex')
     const tl = gsap.timeline(
         {"ease":"power3.inOut",
-        "duration":1,
+        "duration":3,
         }
     )
 
@@ -17,11 +17,6 @@ const ClipPath = () => {
         stagger: 0.3,
         'clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)', // Target shape of the clip-path
     }, 0)
-    // .to(elements, { // Animation target state
-    //     ease: 'power3',
-    //     stagger: 0.3,
-    //     'clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)', // Target shape of the clip-path
-    // }, '>')
     .to(elements,{
         'clip-path': 'polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)',
         stagger: 0.3,

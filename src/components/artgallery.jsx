@@ -7,7 +7,7 @@ const ArtGallery = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const gallery = gsap.utils.toArray('img')
-    gsap.set('img', {
+    gsap.set('img', { 
         clipPath: 'polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)'
     })
     gsap.set('.border', {
@@ -51,11 +51,11 @@ const ArtGallery = () => {
   }, []);
 
   return (
-    <div>
+    <body>
     <section>
         <h1 className='text-white'>hola que tal</h1>
     </section>
-    <section className="gallery">
+    <section className="gallery ">
         <ul>
             <li data-depth='0.10'>
                 <a href="#">
@@ -109,7 +109,7 @@ const ArtGallery = () => {
         </ul>
     </section>
 
-    </div>
+    </body>
 
 
 
