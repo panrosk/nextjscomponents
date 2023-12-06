@@ -1,11 +1,16 @@
 'use client'
 
-import DraftMenu from '../components/draftmenu.jsx'
+import RotationClipath from "../components/rotationclippath"
+
+
 
 
 
 export default function Home() {
   return (
-    <DraftMenu/>
+    <>
+    <RotationClipath/>
+    </>
+
   )
 }
