@@ -1,6 +1,6 @@
 'use client'
+import VideoToFull from "../components/videotofull"
 
-import RotationClipath from "../components/rotationclippath"
 
 
 
@@ -9,7 +9,7 @@ import RotationClipath from "../components/rotationclippath"
 export default function Home() {
   return (
     <>
-    <RotationClipath/>
+    <VideoToFull/>
     </>
 
   )
