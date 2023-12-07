@@ -73,6 +73,9 @@ const RotationClipath = () => {
 
   return (
     <>
+        <div className='h-screen w-screen'>
+            scrollTrigger
+        </div>
     <div id="content" className='top-0 w-screen h-full min-h-screen'>
         <div id="holder" style={{clipPath:"polygon(37.5% 20%,62.5% 20%, 62.5% 80% ,37.5% 80%)",rotate:"30deg"}} className='bg-white relative top-0 h-screen w-screen '>
             <img  src="https://images.unsplash.com/photo-1625240752293-00b16d38c512?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='relative' style={{transform:"scale(2)"}} alt="" />          
