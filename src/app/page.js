@@ -1,5 +1,7 @@
 'use client'
-import VideoToFull from "../components/videotofull"
+
+import InfinteText from "../components/infinitetext"
+
 
 
 
@@ -9,7 +11,7 @@ import VideoToFull from "../components/videotofull"
 export default function Home() {
   return (
     <>
-    <VideoToFull/>
+    <InfinteText/>
     </>
 
   )
